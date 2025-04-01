@@ -39,73 +39,10 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <table cellpadding="5" class="auto-style1">
-            <tr>
-                <td class="auto-style8">&nbsp;</td>
-                <td class="auto-style5">&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-            </tr>
-            <tr>
-                <td class="auto-style7">Ingrese el nombre del producto:</td>
-                <td class="auto-style5">
-                    <asp:TextBox ID="TextBox1" class="input" runat="server" Height="26px" Width="200px"></asp:TextBox>
-                </td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-            </tr>
-            <tr>
-                <td class="auto-style8">&nbsp;</td>
-                <td class="auto-style5">&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-            </tr>
-            <tr>
-                <td class="auto-style8">&nbsp;</td>
-                <td class="auto-style5">&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-            </tr>
-            <tr>
-                <td class="auto-style8">&nbsp;</td>
-                <td class="auto-style5">&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-            </tr>
-            <tr>
-                <td class="auto-style9"></td>
-                <td class="auto-style6"></td>
-                <td class="auto-style2"></td>
-                <td class="auto-style2"></td>
-                <td class="auto-style2"></td>
-                <td class="auto-style2"></td>
-                <td class="auto-style2"></td>
-            </tr>
-            <tr>
-                <td class="auto-style8">&nbsp;</td>
-                <td class="auto-style5">&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-            </tr>
-        </table>
+        <div class="input-container">
+            <label class="auto-style7">Ingrese el nombre del producto:</label>
+            <asp:TextBox ID="TextBox1" class="input" runat="server" Height="26px" Width="200px"></asp:TextBox>
+        </div>
     </form>
 </body>
 </html>
