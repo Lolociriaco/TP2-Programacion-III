@@ -7,6 +7,12 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
     <title></title>
     <style type="text/css">
+        #row {
+        display: flex;
+         gap: 40px; 
+         align-items: flex-start; 
+         margin-bottom: 20px;
+}
         .auto-style1 {
             width: 100%;
         }
@@ -39,6 +45,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
+       <div id="row">
         <div class="input-container">
             <label class="auto-style7">Ingrese el nombre del producto:</label>
             <asp:TextBox ID="TextBox1" class="input" runat="server" Height="26px" Width="200px"></asp:TextBox>
@@ -50,6 +57,20 @@
              <asp:TextBox ID="TextBox2" class="input" runat="server" Height="26px" Width="200px"></asp:TextBox>
             
          </div>
+           </div>
+        <div id="row">
+        <div class="input-container">
+    <label class="auto-style7">Ingrese el nombre del producto:</label>
+    <asp:TextBox ID="TextBox3" class="input" runat="server" Height="26px" Width="200px"></asp:TextBox>
+</div>
+
+ <div class="input-container">
+    
+     <label class="auto-style7">Ingrese la cantidad:</label>
+     <asp:TextBox ID="TextBox4" class="input" runat="server" Height="26px" Width="200px"></asp:TextBox>
+    
+ </div>
+            </div>
 
     </form>
 </body>

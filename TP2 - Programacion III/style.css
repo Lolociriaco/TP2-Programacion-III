@@ -1,11 +1,9 @@
 ﻿body {
     font-family: 'Segoe UI', sans-serif;
-    background-color: #eef2f7;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #1d293d;
-    height: 121px;
+    background-color: #1d293d;
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
 }
 
 
@@ -21,9 +19,11 @@
     font-size: 14px;
     font-weight: bold;
     color: #cad5e2;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     display: block;
 }
+
+
 
 .input {
     padding: 10px;
