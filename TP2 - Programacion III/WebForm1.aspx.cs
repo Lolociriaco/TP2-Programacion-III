@@ -14,5 +14,14 @@ namespace TP2___Programacion_III
 
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            string Tabla = "<table border='1' style='background-color:white;'>";
+            Tabla += "<tr><td><b>Producto</b></td><td><b>Cantidad</b></td></tr>";
+            Tabla += "</table>"; 
+            Labeltabla.Text = Tabla;
+        }
+
     }
 }

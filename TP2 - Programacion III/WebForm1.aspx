@@ -13,33 +13,16 @@
          align-items: flex-start; 
          margin-bottom: 20px;
 }
-        .auto-style1 {
-            width: 100%;
-        }
-        .auto-style2 {
-            height: 28px;
-        }
-        .auto-style5 {
-            width: 217px;
-        }
-        .auto-style6 {
-            height: 28px;
-            width: 217px;
-        }
         .auto-style7 {
             font-size: 14px;
             font-weight: bold;
             color: #cad5e2;
             margin-bottom: 5px;
             display: block;
-            width: 240px;
-        }
+            }
         .auto-style8 {
-            width: 240px;
-        }
-        .auto-style9 {
-            height: 28px;
-            width: 240px;
+            width: 210px;
+            height: 118px;
         }
     </style>
 </head>
@@ -71,6 +54,15 @@
     
  </div>
             </div>
+
+        <p>
+
+        <asp:Button ID="ButtonTabla" runat="server" OnClick="Button1_Click" Text="Generar Tabla" Width="175px" />
+           
+            <table class="auto-style8">
+                <asp:Label ID="Labeltabla" runat="server" BackColor="White" BorderColor="Black"></asp:Label>
+            </table>
+        </p>
 
     </form>
 </body>
