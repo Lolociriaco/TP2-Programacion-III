@@ -4,8 +4,47 @@
     margin: 0;
     padding: 20px;
     min-height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items:center;
 }
 
+#row {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.label-style {
+    font-size: 20px;
+    font-weight: bold;
+    color: #cad5e2;
+    margin: 0 10px 5px 0;
+    display: block;
+}
+
+.description-style {
+    font-size: 15px;
+    font-weight: bold;
+    color: #cad5e2;
+    margin: 0 10px 5px 0;
+    display: block;
+}
+
+.auto-style8 {
+    width: 210px;
+    height: 118px;
+}
+
+.temas-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.items {
+    display: block;
+}
 
 .input-container{
     width: 100%;
@@ -23,10 +62,13 @@
     display: block;
 }
 
-
+#rfvCiudad{
+    margin:10px
+}
 
 .input {
     padding: 10px;
+    margin-right:10px;
     border: 2px solid #ddd;
     border-radius: 8px;
     transition: border 0.3s ease-in-out;
@@ -40,4 +82,43 @@
     outline: none;
 }
 
+.row2 {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
 
+.row {
+    display: flex;
+    align-content:center;
+    margin-bottom: 10px;
+}
+
+.auto-style7 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #cad5e2;
+    margin: 0 15px 5px 0;
+    display: block;
+}
+
+.auto-style8 {
+    width: 210px;
+    height: 118px;
+}
+
+.container{
+    max-width: 1500px;
+}
+
+.button {
+    width: 100%;
+    padding: 15px 0;
+    border-radius: 15px;
+    border: none;
+    color: rgba(255,255,255,0.75);
+    background-color: #133978;
+    font-size: 14px;
+    font-weight: bold;
+}
