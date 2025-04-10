@@ -234,3 +234,62 @@ C:\Users\brand\Desktop\Programacion 2\TP2 - Programacion III\obj\Debug\TP2 - Pro
 C:\Users\brand\Desktop\Programacion 2\TP2 - Programacion III\obj\Debug\TP2 - Pr.E1F5E2FA.Up2Date
 C:\Users\brand\Desktop\Programacion 2\TP2 - Programacion III\obj\Debug\TP2 - Programacion III.dll
 C:\Users\brand\Desktop\Programacion 2\TP2 - Programacion III\obj\Debug\TP2 - Programacion III.pdb
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\bin\TP2 - Programacion III.dll.config
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\bin\TP2 - Programacion III.dll
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\bin\TP2 - Programacion III.pdb
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\bin\roslyn\csc.exe
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\bin\roslyn\csc.exe.config
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\bin\roslyn\csc.rsp
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\bin\roslyn\csi.exe
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\bin\roslyn\csi.exe.config
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\bin\roslyn\csi.rsp
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\bin\roslyn\System.AppContext.dll
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\bin\roslyn\System.Collections.Immutable.dll
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\bin\roslyn\System.Console.dll
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\bin\roslyn\System.Globalization.Calendars.dll
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\bin\roslyn\System.IO.Compression.dll
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\bin\roslyn\System.IO.FileSystem.dll
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\bin\roslyn\System.Net.Http.dll
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\bin\roslyn\System.Net.Sockets.dll
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\bin\roslyn\System.Reflection.Metadata.dll
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\bin\roslyn\System.ValueTuple.dll
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\bin\roslyn\System.Xml.XPath.dll
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\bin\roslyn\vbc.exe
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\bin\roslyn\vbc.exe.config
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\bin\roslyn\vbc.rsp
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\bin\roslyn\VBCSCompiler.exe
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\bin\roslyn\VBCSCompiler.exe.config
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\obj\Debug\TP2 - Programacion III.csproj.AssemblyReference.cache
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\obj\Debug\TP2 - Programacion III.csproj.CoreCompileInputs.cache
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\obj\Debug\TP2 - Pr.E1F5E2FA.Up2Date
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\obj\Debug\TP2 - Programacion III.dll
+C:\Documents\UTN\PROGRAMACION III\.NET\TP2 - Programacion III\TP2 - Programacion III\obj\Debug\TP2 - Programacion III.pdb

@@ -53,7 +53,7 @@
         </div>
 
         <p>
-            <asp:Button ID="Button1" CssClass="button" runat="server" Text="Button" OnClick="Button1_Click" />
+            <asp:Button ID="Button1" CssClass="button" runat="server" Text="Ver resumen" OnClick="Button1_Click" />
         </p>
 
     </form>

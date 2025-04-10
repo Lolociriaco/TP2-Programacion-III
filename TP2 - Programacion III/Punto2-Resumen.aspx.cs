@@ -14,7 +14,6 @@ namespace TP2___Programacion_III
             // Método para capitalizar la primera letra
             string Capitalizar(string texto)
             {
-                if (string.IsNullOrWhiteSpace(texto)) return texto;
                 return char.ToUpper(texto[0]) + texto.Substring(1).ToLower();
             }
 
@@ -25,7 +24,7 @@ namespace TP2___Programacion_III
 
             // Los temas los dejo igual, pero podrías también capitalizarlos si querés:
             List<string> temas = (List<string>)Session["Temas"];
-            lblTemas.Text = string.Join("<br/>", temas.Select(t => Capitalizar(t)));
+            lblTemas.Text = string.Join("<br/>");
 
         }
     }
