@@ -11,18 +11,17 @@ namespace TP2___Programacion_III
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            // Método para capitalizar la primera letra
+            // metodo para capitalizar la primera letra
             string Capitalizar(string texto)
             {
                 return char.ToUpper(texto[0]) + texto.Substring(1).ToLower();
             }
 
-            // Aplicar formato capitalizado
+            // aplico el methoddd
             lblNombre.Text = Capitalizar(Session["Nombre"].ToString());
             lblApellido.Text = Capitalizar(Session["Apellido"].ToString());
             lblCiudad.Text = Capitalizar(Session["Ciudad"].ToString());
 
-            // Los temas los dejo igual, pero podrías también capitalizarlos si querés:
             List<string> temas = (List<string>)Session["Temas"];
             lblTemas.Text = string.Join("<br/>");
 
