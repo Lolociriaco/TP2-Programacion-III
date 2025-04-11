@@ -69,6 +69,10 @@
   <ItemGroup>
     <Content Include="Punto2-Resumen.aspx" />
     <Content Include="Punto3.aspx" />
+    <Content Include="Punto4.aspx" />
+    <Content Include="Punto4C.aspx" />
+    <Content Include="Punto5.aspx" />
+    <Content Include="Pünto4B.aspx" />
     <Content Include="style.css" />
     <Content Include="Web.config" />
     <Content Include="Punto1.aspx">
@@ -107,6 +111,34 @@
     </Compile>
     <Compile Include="Punto3.aspx.designer.cs">
       <DependentUpon>Punto3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Punto4.aspx.cs">
+      <DependentUpon>Punto4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Punto4.aspx.designer.cs">
+      <DependentUpon>Punto4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Punto4C.aspx.cs">
+      <DependentUpon>Punto4C.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Punto4C.aspx.designer.cs">
+      <DependentUpon>Punto4C.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Punto5.aspx.cs">
+      <DependentUpon>Punto5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Punto5.aspx.designer.cs">
+      <DependentUpon>Punto5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pünto4B.aspx.cs">
+      <DependentUpon>Pünto4B.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pünto4B.aspx.designer.cs">
+      <DependentUpon>Pünto4B.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

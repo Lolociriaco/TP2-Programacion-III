@@ -38,8 +38,8 @@ namespace IP2_Programacion_III
                 else
                 {
                     lblResultado.Text = "<div class='error-message'>Las cantidades deben ser números positivos.</div>";
-                } 
-                
+                }
+
             }
             else
             {
