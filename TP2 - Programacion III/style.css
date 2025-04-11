@@ -114,10 +114,11 @@ height: 100px;
 }
 
 .button {
-    width: 100%;
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
     padding: 15px 0;
     border-radius: 15px;
-    border: none;
     color: rgba(255,255,255,0.75);
     background-color: #133978;
     font-size: 14px;

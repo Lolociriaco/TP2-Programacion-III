@@ -22,16 +22,24 @@ namespace IP2_Programacion_III
 
             if (int.TryParse(cantidad1, out int cant1) && int.TryParse(cantidad2, out int cant2))
             {
-                int total = cant1 + cant2;
+                if (cant1 >= 0 && cant2 >= 0)
+                {
+                    int total = cant1 + cant2;
 
-                string tabla = "<table class='result-table'>";
-                tabla += "<tr><th>Producto</th><th>Cantidad</th></tr>";
-                tabla += $"<tr><td>{producto1}</td></td><td>{cant1}</td></tr>";
-                tabla += $"<tr><td>{producto2}</td></td><td>{cant2}</td></tr>";
-                tabla += $"<tr class='total-row'><td><strong>TOTAL</strong></td></td><td><strong>{total}</strong></td></tr>";
-                tabla += "</table>";
+                    string tabla = "<table class='result-table' style='margin: 0 auto; border-collapse: collapse; font-family: Bahnschrift;'>";
+                    tabla += "<tr><th style='border: 1px solid #ccc; padding: 8px;'>Producto</th><th style='border: 1px solid #ccc; padding: 8px;'>Cantidad</th></tr>";
+                    tabla += $"<tr><td style='border: 1px solid #ccc; padding: 8px;'>{producto1}</td><td style='border: 1px solid #ccc; padding: 8px;'>{cant1}</td></tr>";
+                    tabla += $"<tr><td style='border: 1px solid #ccc; padding: 8px;'>{producto2}</td><td style='border: 1px solid #ccc; padding: 8px;'>{cant2}</td></tr>";
+                    tabla += $"<tr class='total-row'><td style='border: 1px solid #ccc; padding: 8px; font-weight: bold;'>TOTAL</td><td style='border: 1px solid #ccc; padding: 8px; font-weight: bold;'>{total}</td></tr>";
+                    tabla += "</table>";
 
-                lblResultado.Text = tabla;
+                    lblResultado.Text = tabla;
+                }
+                else
+                {
+                    lblResultado.Text = "<div class='error-message'>Las cantidades deben ser números positivos.</div>";
+                } 
+                
             }
             else
             {

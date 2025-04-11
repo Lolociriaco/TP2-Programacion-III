@@ -6,35 +6,40 @@
     <title>Ingreso de Productos</title>
       
    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        .input-group {
+            height: 85px;
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server" class="container">
-        <h2 style="text-align:center;">Ingreso de Productos</h2>
+        <h2 style="text-align:center; font-family: Bahnschrift; font-size: x-large; color: #FFFFFF;">Ingreso de Productos</h2>
         
         <div class="input-group">
-            <label>Producto 1:</label>
+            <label style="font-family: Bahnschrift; font-size: medium; color: #FFFFFF">Ingrese el primer producto:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:TextBox ID="txtProducto1" runat="server" CssClass="input"></asp:TextBox>
         </div>
         
         <div class="input-group">
-            <label>Cantidad 1:</label>
+            <label style="font-family: Bahnschrift; font-size: medium; color: #FFFFFF">Ingrese la cantidad:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:TextBox ID="txtCantidad1" runat="server" CssClass="input" TextMode="Number"></asp:TextBox>
         </div>
         
         <div class="input-group">
-            <label>Producto 2:</label>
+            <label style="font-family: Bahnschrift; font-size: medium; color: #FFFFFF">Ingrese el segundo producto:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:TextBox ID="txtProducto2" runat="server" CssClass="input"></asp:TextBox>
         </div>
         
         <div class="input-group">
-            <label>Cantidad 2:</label>
+            <label style="font-family: Bahnschrift; font-size: medium; color: #FFFFFF">Ingrese la cantidad:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
             <asp:TextBox ID="txtCantidad2" runat="server" CssClass="input" TextMode="Number"></asp:TextBox>
         </div>
 
-        <asp:Button ID="btnGenerarTabla" runat="server" Text="Generar Tabla" OnClick="btnGenerarTabla_Click" CssClass="button" />
+        <asp:Button ID="btnGenerarTabla" runat="server" Text="Generar Tabla" OnClick="btnGenerarTabla_Click" CssClass="button" Font-Bold="True" Font-Names="Bahnschrift" Font-Size="Large" ForeColor="White" />
         
         <div style="margin-top:20px; text-align:center;">
-            <asp:Label ID="lblResultado" runat="server"></asp:Label>
+            <asp:Label ID="lblResultado" runat="server" Font-Bold="True" Font-Names="Bahnschrift" Font-Size="Medium" ForeColor="White"></asp:Label>
         </div>
     </form>
 </body>
