@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Punto2-Resumen.aspx" />
+    <Content Include="Punto3.aspx" />
     <Content Include="style.css" />
     <Content Include="Web.config" />
     <Content Include="Punto1.aspx">
@@ -99,6 +100,13 @@
     </Compile>
     <Compile Include="Punto2.aspx.designer.cs">
       <DependentUpon>Punto2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Punto3.aspx.cs">
+      <DependentUpon>Punto3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Punto3.aspx.designer.cs">
+      <DependentUpon>Punto3.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

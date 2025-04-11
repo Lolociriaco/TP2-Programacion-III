@@ -20,8 +20,9 @@
     font-size: 20px;
     font-weight: bold;
     color: #cad5e2;
-    margin: 0 10px 5px 0;
+    margin: 199px 10px 5px 0;
     display: block;
+    height: 30px;
 }
 
 .description-style {
@@ -52,6 +53,7 @@
     justify-content: center;
     align-items: center;
     height: 136px;
+    margin-top: 131px;
 }
 
 .label {
