@@ -26,7 +26,7 @@ namespace TP2___Programacion_III
             }
             else
             {
-                // Mostrar mensaje de error
+                Server.Transfer("Punto4C.aspx");
             }
         }
     }

@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Ingreso de Productos</title>
+    <title>Ingreso de Cuenta</title>
     <style type="text/css">
         *{
             padding: 0px;
