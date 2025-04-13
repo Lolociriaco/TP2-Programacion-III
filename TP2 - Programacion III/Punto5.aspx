@@ -65,6 +65,16 @@
 
             <p>Seleccione accesorios:</p>
 
+            
+                 <asp:CheckBox ID="CHKmonitor" runat="server" Text="Monitor LCD" /><br />
+                <asp:CheckBox ID="CHKHD" runat="server" Text="HD 500GB" /><br />
+                 <asp:CheckBox ID="CHKDVD" runat="server" Text="Grabador DVD" /><br /><br />
+                
+                <asp:Button ID="btnCalcular" runat="server" Text="Calcular precio" OnClick="btnCalcular_Click" />
+
+                <asp:Label ID="resultado" runat="server" Font-Bold="True" />
+
+            
         </div>
     </form>
 </body>

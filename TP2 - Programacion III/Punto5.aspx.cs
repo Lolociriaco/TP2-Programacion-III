@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -14,9 +15,26 @@ namespace TP2___Programacion_III
 
         }
 
-        protected void btnCalculo_Click(object sender, EventArgs e)
+        protected void btnCalcular_Click(object sender, EventArgs e)
         {
+            Double precio = Convert.ToDouble(ddlGB.SelectedValue);
+
+            if (CHKmonitor.Checked)
+            {
+
+                precio += 2000.50;
+            }
+            if (CHKHD.Checked)
+            {
+                precio += 550.50;
+            }
+            if (CHKDVD.Checked) { 
+                precio += 1200;
+            }
+            resultado.Text = "El precio final es de " + precio.ToString() + "$" ;
 
         }
+
+        
     }
 }
