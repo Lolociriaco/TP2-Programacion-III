@@ -11,7 +11,7 @@ namespace TP2___Programacion_III
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            Page.UnobtrusiveValidationMode = UnobtrusiveValidationMode.None;
         }
 
         protected void btnValidar_Click(object sender, EventArgs e)

@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing.Printing;
+using System.Drawing;
 using System.Globalization;
 using System.Linq;
 using System.Web;
@@ -31,8 +33,11 @@ namespace TP2___Programacion_III
             if (CHKDVD.Checked) { 
                 precio += 1200;
             }
-            resultado.Text = "El precio final es de " + precio.ToString() + "$" ;
+            resultado.Text = "El precio final es de $" + precio.ToString();
 
+            resultado.Style["margin-top"] = "15px";
+            resultado.Style["background-color"] = "dimgrey";
+            resultado.Style["padding"] = "10px 0";
         }
 
         

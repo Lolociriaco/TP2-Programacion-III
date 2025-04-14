@@ -52,7 +52,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-height: 100px;
+    height: 80px;
 }
 
 .label {
@@ -119,6 +119,18 @@ height: 100px;
     border-width: medium;
     padding: 15px 0;
     border-radius: 15px;
+    color: rgba(255,255,255,0.75);
+    background-color: #133978;
+    font-size: 14px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.button2 {
+    width: 100%;
+    padding: 15px 0;
+    border-radius: 15px;
+    border: none;
     color: rgba(255,255,255,0.75);
     background-color: #133978;
     font-size: 14px;

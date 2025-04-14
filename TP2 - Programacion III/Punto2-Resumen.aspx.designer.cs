@@ -51,6 +51,15 @@ namespace TP2___Programacion_III
         protected global::System.Web.UI.WebControls.Label lblCiudad;
 
         /// <summary>
+        /// Label1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label1;
+
+        /// <summary>
         /// lblTemas control.
         /// </summary>
         /// <remarks>

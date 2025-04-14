@@ -20,7 +20,11 @@
         body {
             font-family: Bahnschrift;
             background-color: #1d293d;
+            display: flex;
+            justify-content: center;
+            align-items:center;
         }
+
 
         .formulario {
             width: 400px;
@@ -46,6 +50,38 @@
         p {
             margin: 5px;
         }
+
+        .button{
+            width: 100%;
+            border-style: none;
+            border-color: inherit;
+            border-width: medium;
+            padding: 15px 0;
+            border-radius: 15px;
+            color: rgba(255,255,255,0.75);
+            background-color: #133978;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .items{
+            margin-left: 20px;
+        }
+
+        p{
+            margin-top: 10px;
+        }
+
+        #resultado {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            color: antiquewhite;
+        }
+
     </style>
 </head>
 <body>
@@ -66,11 +102,11 @@
             <p>Seleccione accesorios:</p>
 
             
-                 <asp:CheckBox ID="CHKmonitor" runat="server" Text="Monitor LCD" /><br />
-                <asp:CheckBox ID="CHKHD" runat="server" Text="HD 500GB" /><br />
-                 <asp:CheckBox ID="CHKDVD" runat="server" Text="Grabador DVD" /><br /><br />
+                 <asp:CheckBox class="items" ID="CHKmonitor" runat="server" Text=" Monitor LCD" /><br />
+                <asp:CheckBox class="items" ID="CHKHD" runat="server" Text=" HD 500GB" /><br />
+                 <asp:CheckBox class="items" ID="CHKDVD" runat="server" Text=" Grabador DVD" /><br /><br />
                 
-                <asp:Button ID="btnCalcular" runat="server" Text="Calcular precio" OnClick="btnCalcular_Click" />
+                <asp:Button class="button" ID="btnCalcular" runat="server" Text="Calcular precio" OnClick="btnCalcular_Click" />
 
                 <asp:Label ID="resultado" runat="server" Font-Bold="True" />
 

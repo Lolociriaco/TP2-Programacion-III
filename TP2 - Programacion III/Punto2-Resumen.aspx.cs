@@ -23,7 +23,15 @@ namespace TP2___Programacion_III
             lblCiudad.Text = Capitalizar(Session["Ciudad"].ToString());
 
             List<string> temas = (List<string>)Session["Temas"];
-            lblTemas.Text = string.Join("<br/>");
+            if(temas.Count > 0)
+            {
+                Label1.Text = "Los temas seleccionados son:";
+                lblTemas.Text = string.Join("<br/>", temas.Select(t => Capitalizar(t)));
+            }
+            else
+            {
+                Label1.Text = "No hay ningun tema seleccionado.";
+            }
 
         }
     }

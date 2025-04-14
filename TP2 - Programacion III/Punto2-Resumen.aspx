@@ -20,7 +20,8 @@
             <b class="label-style">Zona:</b> <asp:Label class="label-style" ID="lblCiudad" runat="server" /><br />
         </div>
         <div class="row">
-            <b class="label-style">Los temas elegidos son:</b><br />
+            <asp:Label ID="Label1" class="label-style" runat="server" Text=""></asp:Label>
+            <br />
             <asp:Label class="label-style" ID="lblTemas" runat="server" />
         </div>
 

@@ -74,11 +74,19 @@
         <div class="input-group">
             <label>Usuario:</label>
             <asp:TextBox ID="txtUsuario" runat="server" CssClass="input"></asp:TextBox>
+            <asp:RequiredFieldValidator ID="rfvUsuario" runat="server"
+            ControlToValidate="txtUsuario"
+            ErrorMessage="Usuario obligatorio"
+            ForeColor="Red" />
         </div>
 
         <div class="input-group">
             <label>Clave:</label>
             <asp:TextBox ID="txtClave" runat="server" CssClass="input" TextMode="password"></asp:TextBox>
+            <asp:RequiredFieldValidator ID="rfvClave" runat="server"
+            ControlToValidate="txtClave"
+            ErrorMessage="Clave obligatorio"
+            ForeColor="Red" />
         </div>
 
         <div class="input-group">

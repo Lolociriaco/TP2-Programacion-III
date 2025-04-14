@@ -36,7 +36,7 @@
             <asp:TextBox ID="txtCantidad2" runat="server" CssClass="input" TextMode="Number"></asp:TextBox>
         </div>
 
-        <asp:Button ID="btnGenerarTabla" runat="server" Text="Generar Tabla" OnClick="btnGenerarTabla_Click" CssClass="button" Font-Bold="True" Font-Names="Bahnschrift" Font-Size="Large" ForeColor="White" />
+        <asp:Button ID="btnGenerarTabla" runat="server" Text="Generar Tabla" OnClick="btnGenerarTabla_Click" CssClass="button2" Font-Bold="True" Font-Names="Bahnschrift" Font-Size="Large" ForeColor="White" />
         
         <div style="margin-top:20px; text-align:center;">
             <asp:Label ID="lblResultado" runat="server" Font-Bold="True" Font-Names="Bahnschrift" Font-Size="Medium" ForeColor="White"></asp:Label>
